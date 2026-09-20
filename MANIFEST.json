@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4606,
-      "sha256": "8791b77f884c80d19026409b82035b9a936280443640d55bc3705c2022b0b4b3"
+      "bytes": 4631,
+      "sha256": "d72412d6d01c2ebb99f51bcd1537a2608cedeaa38d78dc4979c8adea7434f053"
     },
     {
       "path": "DESIGN.md",
@@ -43,8 +43,8 @@
     },
     {
       "path": "docs/validation.md",
-      "bytes": 2272,
-      "sha256": "6bca92262b6368ac319aad81304ed6ae3026dc25ad7f2c30432ba151ab37bc52"
+      "bytes": 2286,
+      "sha256": "849c435d91b0d3ee357cc0e4f1970a974a74f41bfaf5a9ce9355225568083986"
     },
     {
       "path": "templates/brand-profile.md",
