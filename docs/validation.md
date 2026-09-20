@@ -29,4 +29,4 @@
 
 ## 复现
 
-在项目目录运行 `powershell -File scripts/make-video.ps1 -ReuseAudio`，使用随附配音重新检查并导出。发布新内容需要核实新来源、改稿、重新合成并查看新成片。
+在项目目录使用 PowerShell 7 运行 `pwsh -File scripts/make-video.ps1 -ReuseAudio`，使用随附配音重新检查并导出。发布新内容需要核实新来源、改稿、重新合成并查看新成片。
