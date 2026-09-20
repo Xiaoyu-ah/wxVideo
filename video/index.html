@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1080, initial-scale=1">
+  <meta name="composition-mode" content="narrated_preview">
+  <meta name="caption-timing" content="explicit">
+  <title>看到AI新功能，先问三句话 · AI趋势观察</title>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face { font-family: 'Microsoft YaHei'; src: local('Microsoft YaHei'); font-weight: 400; }
+@font-face { font-family: 'Microsoft YaHei'; src: local('Microsoft YaHei Bold'); font-weight: 700 900; }
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #080f22; }
+body { font-family: 'Microsoft YaHei', sans-serif; color: #f3f6fb; }
+#root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #080f22; }
+.scene { position: absolute; inset: 0; width: 1080px; height: 1920px; background-color: #080f22; }
+.scene + .scene { opacity: 0; }
+.scene-content { display: flex; flex-direction: column; gap: 30px; width: 100%; height: 100%; padding: 100px 84px 132px; }
+.masthead { flex: 0 0 60px; display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; }
+.brand { color: #f3f6fb; font-size: 32px; font-weight: 700; line-height: 1.5; white-space: nowrap; }
+.edition { display: flex; flex-direction: column; color: #adbcd0; font-family: Consolas, monospace; font-size: 26px; text-align: right; line-height: 1.5; }
+.hero { flex: 0 0 302px; display: flex; flex-direction: column; gap: 22px; }
+.eyebrow { color: #77e1dc; font-size: 30px; line-height: 1.4; font-weight: 400; margin: 0; }
+h1 { display: flex; flex-direction: column; gap: 2px; margin: 0; font-size: 94px; font-weight: 900; line-height: 1.2; letter-spacing: -0.015em; }
+.title-line { display: block; max-width: 912px; white-space: nowrap; }
+.title-line:last-child { color: #77e1dc; }
+.card { flex: 1 1 auto; min-height: 620px; display: flex; flex-direction: column; gap: 30px; padding: 42px 42px 36px; border-radius: 30px; background: #f3f6fb; color: #080f22; }
+.card-title { margin: 0; color: #243fa5; font-size: 40px; font-weight: 700; line-height: 1.35; }
+.items { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 26px; }
+.item { display: flex; align-items: flex-start; gap: 26px; min-width: 0; }
+.item-label { flex: 0 0 136px; font-size: 34px; font-weight: 700; line-height: 1.5; color: #243fa5; overflow-wrap: anywhere; }
+.item-text { margin: 0; flex: 1; min-width: 0; font-size: 44px; font-weight: 400; line-height: 1.45; overflow-wrap: anywhere; }
+.layout-flow .item { gap: 28px; }
+.layout-flow .item-label { flex-basis: 96px; font-variant-numeric: tabular-nums; }
+.layout-compare .items { flex-direction: row; align-items: stretch; gap: 36px; }
+.layout-compare .item { flex: 1; flex-direction: column; justify-content: center; gap: 30px; }
+.layout-compare .item-label { flex: 0 0 auto; font-size: 38px; }
+.layout-compare .item-text { flex: 0 0 auto; font-size: 44px; line-height: 1.6; text-wrap: balance; }
+.takeaway { margin: 0; padding: 23px 24px; border-radius: 18px; background: #080f22; color: #edbe6b; font-size: 40px; line-height: 1.4; font-weight: 700; }
+.source { flex: 0 0 80px; color: #adbcd0; font-size: 26px; line-height: 1.5; margin: 0; }
+.caption-area { position: relative; flex: 0 0 150px; width: 100%; }
+.caption { position: absolute; top: 0; left: 0; width: 100%; max-width: 912px; height: 144px; margin: 0; color: #f3f6fb; font-size: 42px; line-height: 1.55; font-weight: 400; text-align: center; overflow: visible; }
+.preview-note { color: #adbcd0; font-size: 26px; }
+.progress-track { flex: 0 0 6px; width: 100%; height: 6px; background: #adbcd0; border-radius: 3px; }
+.progress-fill { width: 100%; height: 6px; background: #77e1dc; transform-origin: left center; border-radius: 3px; }
+</style>
+</head>
+<body>
+  <div id="root" data-composition-id="ai-trend-daily" data-start="0" data-duration="70.719958" data-width="1080" data-height="1920" data-track-index="0">
+
+    <section id="scene-01" class="scene" aria-label="看到新功能，先别急" style="z-index:1">
+      <div class="scene-content">
+        <header class="masthead">
+          <div class="brand reveal">AI趋势观察</div>
+          <div class="edition reveal"><span>DEMO 01 · 01/06</span><span>常青方法</span></div>
+        </header>
+        <div class="hero">
+          <p class="eyebrow reveal">看到新功能，先别急</p>
+          <h1><span class="title-line reveal">AI又更新了</span><span class="title-line reveal">和你有什么关系？</span></h1>
+        </div>
+        <article class="card layout-list">
+          <h2 class="card-title reveal">先问这三句话</h2>
+          <div class="items"><div class="item"><span class="item-label reveal">用途</span><p class="item-text reveal">能替我做哪一步？</p></div><div class="item"><span class="item-label reveal">依据</span><p class="item-text reveal">信息从哪里来？</p></div><div class="item"><span class="item-label reveal">确认</span><p class="item-text reveal">谁来做最后决定？</p></div></div>
+          <p class="takeaway reveal">先想清任务，再决定试不试</p>
+        </article>
+        <p class="source reveal">制作演示 · 原创方法论 · 非新闻报道<span class="preview-note"> · 有声演示</span></p>
+        <div class="caption-area" aria-label="旁白字幕"><p id="scene-01-caption-0" class="caption">AI又更新了，和你有什么关系？</p><p id="scene-01-caption-1" class="caption">先别急着记住新名字。</p><p id="scene-01-caption-2" class="caption">看完介绍，先问三句话，再决定值不值得试。</p></div>
+        <div class="progress-track"><div class="progress-fill"></div></div>
+      </div>
+    </section>
+    <section id="scene-02" class="scene" aria-label="第一问 · 用途" style="z-index:2">
+      <div class="scene-content">
+        <header class="masthead">
+          <div class="brand reveal">AI趋势观察</div>
+          <div class="edition reveal"><span>DEMO 01 · 02/06</span><span>常青方法</span></div>
+        </header>
+        <div class="hero">
+          <p class="eyebrow reveal">第一问 · 用途</p>
+          <h1><span class="title-line reveal">能替我</span><span class="title-line reveal">做哪一步？</span></h1>
+        </div>
+        <article class="card layout-flow">
+          <h2 class="card-title reveal">把大任务拆成一步</h2>
+          <div class="items"><div class="item"><span class="item-label reveal">01</span><p class="item-text reveal">说清楚眼前的任务</p></div><div class="item"><span class="item-label reveal">02</span><p class="item-text reveal">挑出重复、明确的一步</p></div><div class="item"><span class="item-label reveal">03</span><p class="item-text reveal">定义你要的输出</p></div></div>
+          <p class="takeaway reveal">例子：先整理要点，再检查</p>
+        </article>
+        <p class="source reveal">制作演示 · 场景示意 · 非产品实测<span class="preview-note"> · 有声演示</span></p>
+        <div class="caption-area" aria-label="旁白字幕"><p id="scene-02-caption-0" class="caption">第一句，能替我做哪一步？</p><p id="scene-02-caption-1" class="caption">把大任务拆小，挑出重复又清楚的一步。</p><p id="scene-02-caption-2" class="caption">比如整理要点，先说清你想得到什么。</p></div>
+        <div class="progress-track"><div class="progress-fill"></div></div>
+      </div>
+    </section>
+    <section id="scene-03" class="scene" aria-label="第二问 · 依据" style="z-index:3">
+      <div class="scene-content">
+        <header class="masthead">
+          <div class="brand reveal">AI趋势观察</div>
+          <div class="edition reveal"><span>DEMO 01 · 03/06</span><span>常青方法</span></div>
+        </header>
+        <div class="hero">
+          <p class="eyebrow reveal">第二问 · 依据</p>
+          <h1><span class="title-line reveal">说得很厉害</span><span class="title-line reveal">依据在哪里？</span></h1>
+        </div>
+        <article class="card layout-compare">
+          <h2 class="card-title reveal">把两类信息分开看</h2>
+          <div class="items"><div class="item"><span class="item-label reveal">原始说明</span><p class="item-text reveal">看功能条件和适用范围</p></div><div class="item"><span class="item-label reveal">个人试用</span><p class="item-text reveal">看自己的任务是否适合</p></div></div>
+          <p class="takeaway reveal">演示效果，不等于你的结果</p>
+        </article>
+        <p class="source reveal">制作演示 · 信息核验方法 · 非新闻报道<span class="preview-note"> · 有声演示</span></p>
+        <div class="caption-area" aria-label="旁白字幕"><p id="scene-03-caption-0" class="caption">第二句，依据在哪里？</p><p id="scene-03-caption-1" class="caption">找到原始说明，再看适用条件。</p><p id="scene-03-caption-2" class="caption">演示效果和实际体验要分开，关键结论自己核对。</p></div>
+        <div class="progress-track"><div class="progress-fill"></div></div>
+      </div>
+    </section>
+    <section id="scene-04" class="scene" aria-label="第三问 · 确认" style="z-index:4">
+      <div class="scene-content">
+        <header class="masthead">
+          <div class="brand reveal">AI趋势观察</div>
+          <div class="edition reveal"><span>DEMO 01 · 04/06</span><span>常青方法</span></div>
+        </header>
+        <div class="hero">
+          <p class="eyebrow reveal">第三问 · 确认</p>
+          <h1><span class="title-line reveal">谁来做</span><span class="title-line reveal">最后确认？</span></h1>
+        </div>
+        <article class="card layout-compare">
+          <h2 class="card-title reveal">先分清准备与执行</h2>
+          <div class="items"><div class="item"><span class="item-label reveal">交给工具</span><p class="item-text reveal">整理材料、起草内容</p></div><div class="item"><span class="item-label reveal">自己确认</span><p class="item-text reveal">发送、付款、修改信息</p></div></div>
+          <p class="takeaway reveal">把确认权留在自己手里</p>
+        </article>
+        <p class="source reveal">制作演示 · 使用建议 · 非产品声明<span class="preview-note"> · 有声演示</span></p>
+        <div class="caption-area" aria-label="旁白字幕"><p id="scene-04-caption-0" class="caption">第三句，谁来做最后确认？</p><p id="scene-04-caption-1" class="caption">生成草稿可以交给工具。</p><p id="scene-04-caption-2" class="caption">涉及发送、付款或修改信息，</p><p id="scene-04-caption-3" class="caption">先把确认权留在自己手里。</p></div>
+        <div class="progress-track"><div class="progress-fill"></div></div>
+      </div>
+    </section>
+    <section id="scene-05" class="scene" aria-label="最后 · 用一个小任务试用" style="z-index:5">
+      <div class="scene-content">
+        <header class="masthead">
+          <div class="brand reveal">AI趋势观察</div>
+          <div class="edition reveal"><span>DEMO 01 · 05/06</span><span>常青方法</span></div>
+        </header>
+        <div class="hero">
+          <p class="eyebrow reveal">最后 · 用一个小任务试用</p>
+          <h1><span class="title-line reveal">先小范围试用</span><span class="title-line reveal">再判断有没有用</span></h1>
+        </div>
+        <article class="card layout-flow">
+          <h2 class="card-title reveal">给自己留一份记录</h2>
+          <div class="items"><div class="item"><span class="item-label reveal">样例</span><p class="item-text reveal">选不含敏感信息的小任务</p></div><div class="item"><span class="item-label reveal">过程</span><p class="item-text reveal">记下用时和出错的位置</p></div><div class="item"><span class="item-label reveal">结果</span><p class="item-text reveal">判断是否真的帮到了你</p></div></div>
+          <p class="takeaway reveal">一个小任务，就能开始判断</p>
+        </article>
+        <p class="source reveal">制作演示 · 试用记录方法 · 非产品实测<span class="preview-note"> · 有声演示</span></p>
+        <div class="caption-area" aria-label="旁白字幕"><p id="scene-05-caption-0" class="caption">试用时只选一个小任务，先用不敏感的样例。</p><p id="scene-05-caption-1" class="caption">记下花了多久、错在哪里，</p><p id="scene-05-caption-2" class="caption">再判断它是否真的帮到了你。</p></div>
+        <div class="progress-track"><div class="progress-fill"></div></div>
+      </div>
+    </section>
+    <section id="scene-06" class="scene" aria-label="AI趋势观察" style="z-index:6">
+      <div class="scene-content">
+        <header class="masthead">
+          <div class="brand reveal">AI趋势观察</div>
+          <div class="edition reveal"><span>DEMO 01 · 06/06</span><span>常青方法</span></div>
+        </header>
+        <div class="hero">
+          <p class="eyebrow reveal">AI趋势观察</p>
+          <h1><span class="title-line reveal">每天看懂</span><span class="title-line reveal">一个变化</span></h1>
+        </div>
+        <article class="card layout-list">
+          <h2 class="card-title reveal">下次遇到新功能，就问</h2>
+          <div class="items"><div class="item"><span class="item-label reveal">01</span><p class="item-text reveal">能替我做哪一步？</p></div><div class="item"><span class="item-label reveal">02</span><p class="item-text reveal">依据在哪里？</p></div><div class="item"><span class="item-label reveal">03</span><p class="item-text reveal">谁来做最后确认？</p></div></div>
+          <p class="takeaway reveal">看懂用途，也看清边界</p>
+        </article>
+        <p class="source reveal">制作演示 · 原创方法论 · 非新闻报道<span class="preview-note"> · 有声演示</span></p>
+        <div class="caption-area" aria-label="旁白字幕"><p id="scene-06-caption-0" class="caption">能做哪一步，依据在哪里，谁来最后确认。</p><p id="scene-06-caption-1" class="caption">把这三句存下来，下次看到新功能就照着问。</p><p id="scene-06-caption-2" class="caption">每天看懂一个变化。</p></div>
+        <div class="progress-track"><div class="progress-fill"></div></div>
+      </div>
+    </section>
+<audio id="audio-01" src="audio/scene-01.wav" data-start="0.500000" data-duration="10.105250" data-track-index="2" data-volume="1" preload="auto"></audio><audio id="audio-02" src="audio/scene-02.wav" data-start="11.705250" data-duration="10.524958" data-track-index="2" data-volume="1" preload="auto"></audio><audio id="audio-03" src="audio/scene-03.wav" data-start="23.330208" data-duration="10.688500" data-track-index="2" data-volume="1" preload="auto"></audio><audio id="audio-04" src="audio/scene-04.wav" data-start="35.118708" data-duration="11.768583" data-track-index="2" data-volume="1" preload="auto"></audio><audio id="audio-05" src="audio/scene-05.wav" data-start="47.987291" data-duration="9.991875" data-track-index="2" data-volume="1" preload="auto"></audio><audio id="audio-06" src="audio/scene-06.wav" data-start="59.079166" data-duration="11.040792" data-track-index="2" data-volume="1" preload="auto"></audio>
+  </div>
+  <script>
+    // Built synchronously so Hyperframes can discover this seekable timeline.
+    window.__timelines = window.__timelines || {};
+    const scenes = [{"id":"scene-01","start":0.0,"duration":11.20525,"captions":[{"text":"AI\u53c8\u66f4\u65b0\u4e86\uff0c\u548c\u4f60\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f","start":0.5,"end":3.706167},{"text":"\u5148\u522b\u6025\u7740\u8bb0\u4f4f\u65b0\u540d\u5b57\u3002","start":3.826167,"end":6.044},{"text":"\u770b\u5b8c\u4ecb\u7ecd\uff0c\u5148\u95ee\u4e09\u53e5\u8bdd\uff0c\u518d\u51b3\u5b9a\u503c\u4e0d\u503c\u5f97\u8bd5\u3002","start":6.164,"end":10.60525}]},{"id":"scene-02","start":11.20525,"duration":11.624958,"captions":[{"text":"\u7b2c\u4e00\u53e5\uff0c\u80fd\u66ff\u6211\u505a\u54ea\u4e00\u6b65\uff1f","start":0.5,"end":3.112417},{"text":"\u628a\u5927\u4efb\u52a1\u62c6\u5c0f\uff0c\u6311\u51fa\u91cd\u590d\u53c8\u6e05\u695a\u7684\u4e00\u6b65\u3002","start":3.232417,"end":7.235875},{"text":"\u6bd4\u5982\u6574\u7406\u8981\u70b9\uff0c\u5148\u8bf4\u6e05\u4f60\u60f3\u5f97\u5230\u4ec0\u4e48\u3002","start":7.355875,"end":11.024958}]},{"id":"scene-03","start":22.830208,"duration":11.7885,"captions":[{"text":"\u7b2c\u4e8c\u53e5\uff0c\u4f9d\u636e\u5728\u54ea\u91cc\uff1f","start":0.5,"end":2.9315},{"text":"\u627e\u5230\u539f\u59cb\u8bf4\u660e\uff0c\u518d\u770b\u9002\u7528\u6761\u4ef6\u3002","start":3.0515,"end":6.386083},{"text":"\u6f14\u793a\u6548\u679c\u548c\u5b9e\u9645\u4f53\u9a8c\u8981\u5206\u5f00\uff0c\u5173\u952e\u7ed3\u8bba\u81ea\u5df1\u6838\u5bf9\u3002","start":6.506083,"end":11.1885}]},{"id":"scene-04","start":34.618708,"duration":12.868583,"captions":[{"text":"\u7b2c\u4e09\u53e5\uff0c\u8c01\u6765\u505a\u6700\u540e\u786e\u8ba4\uff1f","start":0.5,"end":3.324},{"text":"\u751f\u6210\u8349\u7a3f\u53ef\u4ee5\u4ea4\u7ed9\u5de5\u5177\u3002","start":3.444,"end":6.016375},{"text":"\u6d89\u53ca\u53d1\u9001\u3001\u4ed8\u6b3e\u6216\u4fee\u6539\u4fe1\u606f\uff0c","start":6.136375,"end":9.362667},{"text":"\u5148\u628a\u786e\u8ba4\u6743\u7559\u5728\u81ea\u5df1\u624b\u91cc\u3002","start":9.482667,"end":12.268583}]},{"id":"scene-05","start":47.487291,"duration":11.091875,"captions":[{"text":"\u8bd5\u7528\u65f6\u53ea\u9009\u4e00\u4e2a\u5c0f\u4efb\u52a1\uff0c\u5148\u7528\u4e0d\u654f\u611f\u7684\u6837\u4f8b\u3002","start":0.5,"end":4.573708},{"text":"\u8bb0\u4e0b\u82b1\u4e86\u591a\u4e45\u3001\u9519\u5728\u54ea\u91cc\uff0c","start":4.693708,"end":7.570667},{"text":"\u518d\u5224\u65ad\u5b83\u662f\u5426\u771f\u7684\u5e2e\u5230\u4e86\u4f60\u3002","start":7.690667,"end":10.491875}]},{"id":"scene-06","start":58.579166,"duration":12.140792,"captions":[{"text":"\u80fd\u505a\u54ea\u4e00\u6b65\uff0c\u4f9d\u636e\u5728\u54ea\u91cc\uff0c\u8c01\u6765\u6700\u540e\u786e\u8ba4\u3002","start":0.5,"end":4.684708},{"text":"\u628a\u8fd9\u4e09\u53e5\u5b58\u4e0b\u6765\uff0c\u4e0b\u6b21\u770b\u5230\u65b0\u529f\u80fd\u5c31\u7167\u7740\u95ee\u3002","start":4.804708,"end":9.218},{"text":"\u6bcf\u5929\u770b\u61c2\u4e00\u4e2a\u53d8\u5316\u3002","start":9.338,"end":11.540792}]}];
+    const totalDuration = 70.719958;
+    const tl = gsap.timeline({ paused: true });
+    const eases = ["power3.out", "sine.out", "power2.out", "expo.out"];
+    scenes.forEach((scene, sceneIndex) => {
+      const selector = "#" + scene.id;
+      const start = scene.start;
+      tl.addLabel(scene.id, start);
+      if (sceneIndex > 0) {
+        // This simultaneous opacity swap IS the transition, not a pre-exit.
+        tl.to("#" + scenes[sceneIndex - 1].id,
+          { opacity: 0, duration: 0.4, ease: "power2.inOut" }, start);
+        tl.fromTo(selector, { opacity: 0 },
+          { opacity: 1, duration: 0.4, ease: "power2.inOut", immediateRender: false }, start);
+      }
+      tl.from(selector + " .card", { opacity: 0, scale: 0.985, duration: 0.55, ease: "power2.out" }, start + 0.3);
+      document.querySelectorAll(selector + " .reveal").forEach((element, elementIndex) => {
+        const shifts = [{ y: 18 }, { x: -14 }, { y: 24 }, { x: 12, y: 6 }];
+        tl.from(element, { ...shifts[elementIndex % shifts.length], opacity: 0,
+          duration: 0.46 + (elementIndex % 3) * 0.05, ease: eases[elementIndex % eases.length] },
+          start + 0.15 + elementIndex * 0.07);
+      });
+      tl.from(selector + " .progress-track", { opacity: 0, duration: 0.4, ease: "sine.out" }, start + 0.2);
+      tl.fromTo(selector + " .progress-fill", { scaleX: start / totalDuration },
+        { scaleX: (start + scene.duration) / totalDuration, duration: scene.duration, ease: "none" }, start);
+      scene.captions.forEach((caption, captionIndex) => {
+        const target = "#" + scene.id + "-caption-" + captionIndex;
+        const captionStart = start + caption.start;
+        const captionEnd = start + caption.end;
+        tl.from(target, { opacity: 0, y: 8, duration: Math.min(0.18, (caption.end - caption.start) / 3), ease: "sine.out" }, captionStart);
+        // A caption lifecycle ends at its timestamp; no visibility/display animation.
+        tl.set(target, { opacity: 0 }, captionEnd);
+      });
+    });
+    window.__timelines["ai-trend-daily"] = tl;
+    window.__compositionMeta = { mode: "narrated_preview", captionTiming: "explicit" };
+  </script>
+</body>
+</html>

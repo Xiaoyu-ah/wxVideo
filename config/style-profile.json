@@ -1,0 +1,131 @@
+{
+  "schema_version": 2,
+  "status": "visual_template_calibrated_from_partial_samples",
+  "account": {
+    "channel_name": "AI趋势观察",
+    "bio": "追踪 AI 热点，讲清技术、应用与趋势。\n从大模型到机器人，看懂科技如何改变工作与生活。\n每天一个热点，不止看热闹，更要看门道。",
+    "positioning": "AI热点、技术应用与趋势解释",
+    "audience": null,
+    "ownership_basis": "用户提供主页截图并明确确认这是自己的账号"
+  },
+  "reference_count": 3,
+  "reference_count_meaning": "主页前三条封面样本，不等于完整审阅作品数",
+  "full_video_review_count": 0,
+  "format": {
+    "observed_playback_aspect_ratio": "approximately 9:16",
+    "observed_cover_display_aspect_ratio": "approximately 3:4",
+    "observed_duration_seconds": [
+      66,
+      77,
+      55
+    ],
+    "source_width": null,
+    "source_height": null,
+    "source_frame_rate": null,
+    "template_width": 1080,
+    "template_height": 1920,
+    "template_frame_rate": 30,
+    "template_duration_range_seconds": [
+      55,
+      75
+    ]
+  },
+  "voice": {
+    "historical_voice": null,
+    "historical_music": null,
+    "sample_voice": "Microsoft Huihui Desktop",
+    "sample_voice_rate": 2,
+    "sample_voice_basis": "新样片使用本机中文合成音，未识别或克隆历史声音"
+  },
+  "visual": {
+    "observed": [
+      "问题式大标题",
+      "关键词用强调色",
+      "信息卡片或数据图表",
+      "底部来源/说明",
+      "部分播放画面有逐句字幕和进度线"
+    ],
+    "palette": {
+      "background": "#080f22",
+      "foreground": "#f3f6fb",
+      "accent": "#77e1dc",
+      "muted": "#adbcd0",
+      "card_accent": "#243fa5",
+      "boundary": "#edbe6b"
+    },
+    "palette_basis": "根据可见样本选定的制作色值，非原文件实测",
+    "cover_layout": "两行问题标题＋场景信息卡片＋一句用途或边界提示",
+    "template_font": "Microsoft YaHei",
+    "original_font": null,
+    "transition_style": "新模板0.4秒crossfade；原片转场参数未测量"
+  },
+  "structure": {
+    "template_scenes": [
+      "问题",
+      "用途",
+      "依据",
+      "边界",
+      "试用方法",
+      "总结"
+    ],
+    "basis": "从封面与抽样播放画面归纳的改版方案，不宣称所有历史视频严格六段",
+    "interaction": "围绕本条具体问题自然收束"
+  },
+  "evidence": [
+    {
+      "id": "E01",
+      "type": "user_confirmed_profile_screenshot",
+      "supports": [
+        "账号名",
+        "简介",
+        "前三条封面",
+        "显示时长"
+      ]
+    },
+    {
+      "id": "E02",
+      "type": "sampled_playback_frame",
+      "work": "图表/截图用途主题",
+      "supports": [
+        "9:16主体",
+        "蓝青配色",
+        "示意图说明"
+      ]
+    },
+    {
+      "id": "E03",
+      "type": "sampled_playback_frame",
+      "work": "同一主题后段",
+      "supports": [
+        "来源说明",
+        "更正信息卡片",
+        "字幕",
+        "进度线"
+      ]
+    },
+    {
+      "id": "E04",
+      "type": "sampled_playback_frame",
+      "work": "航班/凝结尾迹主题",
+      "supports": [
+        "分点列表",
+        "章节点进度",
+        "编辑判断标注"
+      ]
+    },
+    {
+      "id": "E05",
+      "type": "sampled_playback_frame",
+      "work": "AI广告增长主题",
+      "supports": [
+        "数字卡片",
+        "另一套深色配色"
+      ]
+    }
+  ],
+  "notes": [
+    "旧稿中的新闻、功能、日期和数字仅作为作品内容观察，本任务未核验这些历史声明。",
+    "未完整获取历史音轨或逐帧审阅，不推断声音身份、音乐来源或原始剪辑时长。",
+    "原始截图和窗口采样只保留本地work目录，不随仓库上传。"
+  ]
+}

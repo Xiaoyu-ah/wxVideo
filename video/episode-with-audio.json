@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "channel": "AI趋势观察",
+  "episode": "DEMO 01",
+  "date": "常青方法",
+  "title": "看到AI新功能，先问三句话",
+  "scenes": [
+    {
+      "id": "opening",
+      "label": "看到新功能，先别急",
+      "title": [
+        "AI又更新了",
+        "和你有什么关系？"
+      ],
+      "card_title": "先问这三句话",
+      "layout": "list",
+      "items": [
+        {
+          "label": "用途",
+          "text": "能替我做哪一步？"
+        },
+        {
+          "label": "依据",
+          "text": "信息从哪里来？"
+        },
+        {
+          "label": "确认",
+          "text": "谁来做最后决定？"
+        }
+      ],
+      "takeaway": "先想清任务，再决定试不试",
+      "narration": "AI又更新了，和你有什么关系？先别急着记住新名字。看完介绍，先问三句话，再决定值不值得试。",
+      "source": "制作演示 · 原创方法论 · 非新闻报道",
+      "duration": 11.20525,
+      "audio": "audio/scene-01.wav",
+      "audio_start": 0.5,
+      "audio_duration": 10.10525,
+      "captions": [
+        {
+          "text": "AI又更新了，和你有什么关系？",
+          "start": 0.5,
+          "end": 3.706167
+        },
+        {
+          "text": "先别急着记住新名字。",
+          "start": 3.826167,
+          "end": 6.044
+        },
+        {
+          "text": "看完介绍，先问三句话，再决定值不值得试。",
+          "start": 6.164,
+          "end": 10.60525
+        }
+      ]
+    },
+    {
+      "id": "use_case",
+      "label": "第一问 · 用途",
+      "title": [
+        "能替我",
+        "做哪一步？"
+      ],
+      "card_title": "把大任务拆成一步",
+      "layout": "flow",
+      "items": [
+        {
+          "label": "01",
+          "text": "说清楚眼前的任务"
+        },
+        {
+          "label": "02",
+          "text": "挑出重复、明确的一步"
+        },
+        {
+          "label": "03",
+          "text": "定义你要的输出"
+        }
+      ],
+      "takeaway": "例子：先整理要点，再检查",
+      "narration": "第一句，能替我做哪一步？把大任务拆小，挑出重复又清楚的一步。比如整理要点，先说清你想得到什么。",
+      "source": "制作演示 · 场景示意 · 非产品实测",
+      "duration": 11.624958,
+      "audio": "audio/scene-02.wav",
+      "audio_start": 0.5,
+      "audio_duration": 10.524958,
+      "captions": [
+        {
+          "text": "第一句，能替我做哪一步？",
+          "start": 0.5,
+          "end": 3.112417
+        },
+        {
+          "text": "把大任务拆小，挑出重复又清楚的一步。",
+          "start": 3.232417,
+          "end": 7.235875
+        },
+        {
+          "text": "比如整理要点，先说清你想得到什么。",
+          "start": 7.355875,
+          "end": 11.024958
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "label": "第二问 · 依据",
+      "title": [
+        "说得很厉害",
+        "依据在哪里？"
+      ],
+      "card_title": "把两类信息分开看",
+      "layout": "compare",
+      "items": [
+        {
+          "label": "原始说明",
+          "text": "看功能条件和适用范围"
+        },
+        {
+          "label": "个人试用",
+          "text": "看自己的任务是否适合"
+        }
+      ],
+      "takeaway": "演示效果，不等于你的结果",
+      "narration": "第二句，依据在哪里？找到原始说明，再看适用条件。演示效果和实际体验要分开，关键结论自己核对。",
+      "source": "制作演示 · 信息核验方法 · 非新闻报道",
+      "duration": 11.7885,
+      "audio": "audio/scene-03.wav",
+      "audio_start": 0.5,
+      "audio_duration": 10.6885,
+      "captions": [
+        {
+          "text": "第二句，依据在哪里？",
+          "start": 0.5,
+          "end": 2.9315
+        },
+        {
+          "text": "找到原始说明，再看适用条件。",
+          "start": 3.0515,
+          "end": 6.386083
+        },
+        {
+          "text": "演示效果和实际体验要分开，关键结论自己核对。",
+          "start": 6.506083,
+          "end": 11.1885
+        }
+      ]
+    },
+    {
+      "id": "confirmation",
+      "label": "第三问 · 确认",
+      "title": [
+        "谁来做",
+        "最后确认？"
+      ],
+      "card_title": "先分清准备与执行",
+      "layout": "compare",
+      "items": [
+        {
+          "label": "交给工具",
+          "text": "整理材料、起草内容"
+        },
+        {
+          "label": "自己确认",
+          "text": "发送、付款、修改信息"
+        }
+      ],
+      "takeaway": "把确认权留在自己手里",
+      "narration": "第三句，谁来做最后确认？生成草稿可以交给工具。涉及发送、付款或修改信息，先把确认权留在自己手里。",
+      "source": "制作演示 · 使用建议 · 非产品声明",
+      "duration": 12.868583,
+      "audio": "audio/scene-04.wav",
+      "audio_start": 0.5,
+      "audio_duration": 11.768583,
+      "captions": [
+        {
+          "text": "第三句，谁来做最后确认？",
+          "start": 0.5,
+          "end": 3.324
+        },
+        {
+          "text": "生成草稿可以交给工具。",
+          "start": 3.444,
+          "end": 6.016375
+        },
+        {
+          "text": "涉及发送、付款或修改信息，",
+          "start": 6.136375,
+          "end": 9.362667
+        },
+        {
+          "text": "先把确认权留在自己手里。",
+          "start": 9.482667,
+          "end": 12.268583
+        }
+      ]
+    },
+    {
+      "id": "small_trial",
+      "label": "最后 · 用一个小任务试用",
+      "title": [
+        "先小范围试用",
+        "再判断有没有用"
+      ],
+      "card_title": "给自己留一份记录",
+      "layout": "flow",
+      "items": [
+        {
+          "label": "样例",
+          "text": "选不含敏感信息的小任务"
+        },
+        {
+          "label": "过程",
+          "text": "记下用时和出错的位置"
+        },
+        {
+          "label": "结果",
+          "text": "判断是否真的帮到了你"
+        }
+      ],
+      "takeaway": "一个小任务，就能开始判断",
+      "narration": "试用时只选一个小任务，先用不敏感的样例。记下花了多久、错在哪里，再判断它是否真的帮到了你。",
+      "source": "制作演示 · 试用记录方法 · 非产品实测",
+      "duration": 11.091875,
+      "audio": "audio/scene-05.wav",
+      "audio_start": 0.5,
+      "audio_duration": 9.991875,
+      "captions": [
+        {
+          "text": "试用时只选一个小任务，先用不敏感的样例。",
+          "start": 0.5,
+          "end": 4.573708
+        },
+        {
+          "text": "记下花了多久、错在哪里，",
+          "start": 4.693708,
+          "end": 7.570667
+        },
+        {
+          "text": "再判断它是否真的帮到了你。",
+          "start": 7.690667,
+          "end": 10.491875
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "label": "AI趋势观察",
+      "title": [
+        "每天看懂",
+        "一个变化"
+      ],
+      "card_title": "下次遇到新功能，就问",
+      "layout": "list",
+      "items": [
+        {
+          "label": "01",
+          "text": "能替我做哪一步？"
+        },
+        {
+          "label": "02",
+          "text": "依据在哪里？"
+        },
+        {
+          "label": "03",
+          "text": "谁来做最后确认？"
+        }
+      ],
+      "takeaway": "看懂用途，也看清边界",
+      "narration": "能做哪一步，依据在哪里，谁来最后确认。把这三句存下来，下次看到新功能就照着问。每天看懂一个变化。",
+      "source": "制作演示 · 原创方法论 · 非新闻报道",
+      "duration": 12.140792,
+      "audio": "audio/scene-06.wav",
+      "audio_start": 0.5,
+      "audio_duration": 11.040792,
+      "captions": [
+        {
+          "text": "能做哪一步，依据在哪里，谁来最后确认。",
+          "start": 0.5,
+          "end": 4.684708
+        },
+        {
+          "text": "把这三句存下来，下次看到新功能就照着问。",
+          "start": 4.804708,
+          "end": 9.218
+        },
+        {
+          "text": "每天看懂一个变化。",
+          "start": 9.338,
+          "end": 11.540792
+        }
+      ]
+    }
+  ],
+  "audio_production": {
+    "engine": "Windows System.Speech / SAPI",
+    "voice": "Microsoft Huihui Desktop",
+    "rate": 2,
+    "note": "新样片的系统合成音；非历史作品原声，未做声音克隆。",
+    "caption_timing": "Each caption follows its synthesized WAV's measured PCM sample boundaries.",
+    "phrase_gap_seconds": 0.12
+  }
+}

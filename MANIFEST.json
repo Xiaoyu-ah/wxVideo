@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 668,
+      "sha256": "6ce14ef4ceddf31ad144f89ae8eae080ee0e879b5dc60e95f541196602522222"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4606,
+      "sha256": "8791b77f884c80d19026409b82035b9a936280443640d55bc3705c2022b0b4b3"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 3020,
+      "sha256": "2294b9899d5217f5c734989840739c7071699ddd7fd03663ac1471b31f62bdac"
+    },
+    {
+      "path": "config/style-profile.json",
+      "bytes": 3853,
+      "sha256": "1f1ee37cb3782c8007796d98b471dbd52a35f0fbd3e6bccff23abbcaaedd48ba"
+    },
+    {
+      "path": "docs/analysis-status.md",
+      "bytes": 2670,
+      "sha256": "500a6c58ddfa91b0657efea5db1d2c2a479b1a0bed6693f3f8d4d0e5eff84b69"
+    },
+    {
+      "path": "docs/avatar-prompt.md",
+      "bytes": 1955,
+      "sha256": "929ce6288d7284638b97c42dd753dd64ea7af185bfe3ae1ee56038e73b987eae"
+    },
+    {
+      "path": "docs/daily-workflow.md",
+      "bytes": 2326,
+      "sha256": "74c43cc320ffaf205e056ba12b9dbd8ca8c322e42dc8e5198ddaf30eafb7bf6c"
+    },
+    {
+      "path": "docs/profile-and-covers.md",
+      "bytes": 8038,
+      "sha256": "45fb2c51ec254f2266ce4a5c68b51d51f68310be938a50f5d8e2864b32694b4f"
+    },
+    {
+      "path": "docs/validation.md",
+      "bytes": 2272,
+      "sha256": "6bca92262b6368ac319aad81304ed6ae3026dc25ad7f2c30432ba151ab37bc52"
+    },
+    {
+      "path": "templates/brand-profile.md",
+      "bytes": 7029,
+      "sha256": "2ec8323a29892417b40e7bd446989108203ef23fbc7e6f1ac12cc646e16c1f8b"
+    },
+    {
+      "path": "templates/video-analysis.md",
+      "bytes": 4687,
+      "sha256": "ebf1516f586261b9a248c5f2f2b2323891687e9d05c5d6469a18f03959f84f97"
+    },
+    {
+      "path": "prompts/daily-production.md",
+      "bytes": 10061,
+      "sha256": "2c5119819f2a4189cbb8a0dac7fb5265775406fc6ce4aab828673e68618f5494"
+    },
+    {
+      "path": "examples/episode-demo.json",
+      "bytes": 4497,
+      "sha256": "9cb63af416269e339cbe0ae6a0bc9b69ef5836ed2bfb4684286c7e4c6b9469ba"
+    },
+    {
+      "path": "scripts/build_cover.py",
+      "bytes": 7441,
+      "sha256": "2f339a77dc8be1c2c4862c5eb9b9276b6e22b790304071359c6a883e0e36a4e5"
+    },
+    {
+      "path": "scripts/build_video.py",
+      "bytes": 23092,
+      "sha256": "7b65c7bdfe61e444636413be0f8a097b9fd042813fa7b578ec47fdfd17601b90"
+    },
+    {
+      "path": "scripts/new_day.py",
+      "bytes": 9399,
+      "sha256": "9e6d1c81e2d6f3446407bffc8c70874e25502d569e2809e92f0aa0dff95ce6bc"
+    },
+    {
+      "path": "scripts/new-day.ps1",
+      "bytes": 766,
+      "sha256": "3a7419aab75f93c786228a7961d8d349f1fc89834a32b09a3b54bdd4afa1bc81"
+    },
+    {
+      "path": "scripts/make-video.ps1",
+      "bytes": 5661,
+      "sha256": "b6209afe4e49faca2e1af238a60d005cd565c67b6526bd24d0ec66a0d3d32582"
+    },
+    {
+      "path": "scripts/prepare_audio.py",
+      "bytes": 7248,
+      "sha256": "358524c2edab61760086470bc5a78069ab44f8cca4490e9b7507759f2691c934"
+    },
+    {
+      "path": "scripts/synthesize.ps1",
+      "bytes": 4309,
+      "sha256": "34184b15941fdd481f83c68a2329a6c5c7c735d0b08f84729a58ac413bd5b0bd"
+    },
+    {
+      "path": "assets/avatar-proposal.png",
+      "bytes": 1242280,
+      "sha256": "e79fc19e1229d868e2f41df0f0c0ec8516322cfeb7148e0dd92fb69264c885fe"
+    },
+    {
+      "path": "assets/cover-demo.png",
+      "bytes": 244936,
+      "sha256": "db90811d223c5b2c6253201a96e65d89eee5cb8a2c0aef0b42d296ba99f4c6e5"
+    },
+    {
+      "path": "video/AGENTS.md",
+      "bytes": 8002,
+      "sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3"
+    },
+    {
+      "path": "video/CLAUDE.md",
+      "bytes": 8002,
+      "sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3"
+    },
+    {
+      "path": "video/cover.html",
+      "bytes": 4086,
+      "sha256": "cc669ee5720fe61d3c1eab309411a00ea458b371472aeefb7fc394a288070491"
+    },
+    {
+      "path": "video/episode-with-audio.json",
+      "bytes": 9213,
+      "sha256": "be5d52796034f7ca9996dc845973868611fb7f107b5ca342662216668bd0a02d"
+    },
+    {
+      "path": "video/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    {
+      "path": "video/index.html",
+      "bytes": 20968,
+      "sha256": "27da41da18fd2f42dd546e5c097dafcb2b2215d1dd8179e1b28e97837cadffb4"
+    },
+    {
+      "path": "video/meta.json",
+      "bytes": 81,
+      "sha256": "b2eb5733baabd36bef7d600355400f315d9a29bdd10df7b3b3d7542e28a38370"
+    },
+    {
+      "path": "video/package.json",
+      "bytes": 290,
+      "sha256": "e5e8438af0a648fb07ef220ef3712f8707f5edc8e746b068543748b4993c197a"
+    },
+    {
+      "path": "video/script.md",
+      "bytes": 4254,
+      "sha256": "13a1ed3e4386be36e21e83393190bdfa3bb24e447b330b234a70c7aecfa3fdbf"
+    },
+    {
+      "path": "video/subtitles.srt",
+      "bytes": 1563,
+      "sha256": "9df78f1aea2b66dee38e18c59b7ace22ef0a40043ec3bda810b503eb17ab1dba"
+    },
+    {
+      "path": "video/timeline.json",
+      "bytes": 9918,
+      "sha256": "0f263615876943393918ae033b401febc92da08657dfb3b23f95ad6bef051499"
+    },
+    {
+      "path": "video/audio/scene-01.wav",
+      "bytes": 485096,
+      "sha256": "44ce6062aec0f10d744b7abd94bbdf2b9a37eb11df0a8b8f3915a4741f5a1f1d"
+    },
+    {
+      "path": "video/audio/scene-02.wav",
+      "bytes": 505242,
+      "sha256": "dd20d6f6d6be6e0636542c6dcccdd81dafd905f1d53e6726310aaf252872e636"
+    },
+    {
+      "path": "video/audio/scene-03.wav",
+      "bytes": 513092,
+      "sha256": "9bbcd4dab5b1425ceb4e4acf16588237331fdd32e0368d22b2b6349b47a13f0e"
+    },
+    {
+      "path": "video/audio/scene-04.wav",
+      "bytes": 564936,
+      "sha256": "03b05777dfeb40ba01e0c37d20bdcdb9e0b77adaf561bd9b6377a1b1a7253d49"
+    },
+    {
+      "path": "video/audio/scene-05.wav",
+      "bytes": 479654,
+      "sha256": "df7ce23ce985b961410b5d28c08419772d839700d83cbb9001b4746d34a75e4e"
+    },
+    {
+      "path": "video/audio/scene-06.wav",
+      "bytes": 530002,
+      "sha256": "cec8de29b32fee5dc37ec4bc283822755590a7b1a51c6ffd12f411344df632a2"
+    }
+  ]
+}
