@@ -16,10 +16,10 @@
 
 ## 在这台电脑上生成视频
 
-在此项目目录打开 PowerShell，执行：
+在此项目目录打开 **PowerShell 7（`pwsh`）**，执行：
 
 ```powershell
-powershell -File scripts/make-video.ps1
+pwsh -File scripts/make-video.ps1
 ```
 
 流程：中文配音 → 按实际音频长度生成字幕 → 视频与封面HTML → Hyperframes完整检查 → 导出 `renders/demo.mp4`。默认用 Windows 的 Microsoft Huihui Desktop 中文合成音；无需付费配音服务。
@@ -27,13 +27,13 @@ powershell -File scripts/make-video.ps1
 已有演示配音随项目提供。只更改排版、没有改变旁白时可以复用：
 
 ```powershell
-powershell -File scripts/make-video.ps1 -ReuseAudio
+pwsh -File scripts/make-video.ps1 -ReuseAudio
 ```
 
 只准备源文件、不检查或导出视频：
 
 ```powershell
-powershell -File scripts/make-video.ps1 -ReuseAudio -PrepareOnly
+pwsh -File scripts/make-video.ps1 -ReuseAudio -PrepareOnly
 ```
 
 `-ReuseAudio` 会检查旁白与场景编号是否匹配；改口播后应去掉该参数。每次生成会更新 `video/` 中的当前作品，所以先保存要保留的旧稿。
@@ -47,7 +47,7 @@ powershell -File scripts/make-video.ps1 -ReuseAudio -PrepareOnly
 该步骤只创建当天制作文件夹，不覆盖已有日期。填好 `days/2026-09-21/script.json` 中的六段内容与来源，删除全部“待填”文字，再运行：
 
 ```powershell
-powershell -File scripts/make-video.ps1 -Episode days/2026-09-21/script.json -Output renders/2026-09-21.mp4
+pwsh -File scripts/make-video.ps1 -Episode days/2026-09-21/script.json -Output renders/2026-09-21.mp4
 ```
 
 建议先用演示JSON熟悉字段。固定六段为：**问题、用途、依据、边界、试用、总结**。初稿每段约10秒；配音生成后以实际长度延长场景，合计必须55–75秒。超长时精简旁白后重做，不能截断音频。
@@ -60,7 +60,7 @@ powershell -File scripts/make-video.ps1 -Episode days/2026-09-21/script.json -Ou
 
 ## 换电脑使用
 
-需要 Windows、Python 3.10+、中文 SAPI 语音、Node.js 22+ 与 npm/npx、FFmpeg/FFprobe、Chrome 或 Edge。脚本优先使用已存在的 Codex Python，也可用 `-Python` 指定；渲染器固定 `hyperframes@0.8.55`。
+需要 Windows、**PowerShell 7（`pwsh`）**、Python 3.10+、中文 SAPI 语音、Node.js 22+ 与 npm/npx、FFmpeg/FFprobe、Chrome 或 Edge。脚本优先使用已存在的 Codex Python，也可用 `-Python` 指定；渲染器固定 `hyperframes@0.8.55`。
 
 Edge 可通过环境变量 `HYPERFRAMES_BROWSER_PATH` 指向本机安装的 `msedge.exe`。FFmpeg、FFprobe需在PATH中，或使用对应的 `HYPERFRAMES_FFMPEG_PATH`、`HYPERFRAMES_FFPROBE_PATH`。这台电脑已准备本地渲染环境；它不是仓库的一部分，换电脑仍要安装依赖。首次运行会下载渲染器、GSAP及部分字体，需联网。
 
